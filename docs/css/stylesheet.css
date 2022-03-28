@@ -3,7 +3,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
   font-family: helvetica;
   /* border: 1px solid white; */
@@ -80,7 +80,7 @@ p {
 
 header {
   display: block;
-  /* position: fixed; */
+  position:sticky;
   top: 0;
   width: 100%;
   height: 130px;
@@ -130,7 +130,7 @@ header {
 .btn_table {
   display: block;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   font-weight: bold;
   text-decoration: none;
   background-color: rgb(173, 185, 181);
@@ -147,10 +147,10 @@ header {
 /* cover */
 main {
   display: table;
-  margin: 55% auto;
+  margin: auto;
   width: 90%;
   color: white;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .categoria ul {
@@ -183,7 +183,7 @@ label {
   font-size: 5vw;
   border: 2px solid;
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 input[type="radio"]:checked+label {
@@ -200,3 +200,8 @@ input[type="checkbox"]:checked+label {
 
 
 /* fine panino list */
+
+
+li{
+  padding: 10px;
+}
