@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+  --footer: #999;
+  --color1: #000;
+  --color1hover: #333;
+}
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-family: helvetica;
+  /* border: 1px solid; */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  padding-bottom: 55px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--footer);
+  width: 100%;
+  height: 50px;
+}
