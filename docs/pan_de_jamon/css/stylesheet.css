@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../../css/stylesheet.css);
 
 :root {
   --footer: #999;
@@ -14,11 +15,11 @@
   /* border: 1px solid; */
 }
 
-html,
+/* html,
 body {
   width: 100%;
   height: 100%;
-}
+} */
 
 main {
   padding-bottom: 55px;
