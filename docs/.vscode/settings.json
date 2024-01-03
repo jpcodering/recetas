@@ -1,0 +1,10 @@
+{
+  // "editor.wordWrap": "bounded",
+  // "editor.wordWrapColumn": 60,
+  "editor.wrappingIndent": "indent",
+  // "editor.accessibilitySupport": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.tabSize": 2,
+  "editor.wrappingStrategy": "advanced"
+
+}
