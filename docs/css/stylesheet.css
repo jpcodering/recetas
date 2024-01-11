@@ -205,3 +205,7 @@ input[type="checkbox"]:checked+label {
 li{
   padding: 10px;
 }
+
+footer{
+  padding: 20px;
+}
